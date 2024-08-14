@@ -1,0 +1,97 @@
+/* General Container */
+.quicken-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Login Box */
+.quicken-login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Quicken Logo */
+.quicken-logo {
+  font-size: 32px;
+  color: #4b0082;
+  font-weight: bold;
+  margin-bottom: 24px;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings and Text */
+.quicken-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+.quicken-subtext {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 24px;
+  font-family: Arial, sans-serif;
+}
+
+/* Input Fields */
+.quicken-login-box .ant-input {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  height: 40px;
+  box-sizing: border-box; /* Ensures padding is included in the height and width */
+}
+
+/* Continue Button */
+.quicken-login-button {
+  width: 100%;
+  background-color: #4b0082;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 44px;
+  box-sizing: border-box; /* Ensures padding is included in the height */
+}
+
+.quicken-login-button:hover {
+  background-color: #3e0075;
+}
+
+/* Divider and Register Link */
+.quicken-divider {
+  margin: 24px 0;
+  font-size: 14px;
+  color: #999999;
+  display: flex;
+  align-items: center;
+}
+
+.quicken-divider::before,
+.quicken-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 0 10px;
+}
+
+.quicken-register-link {
+  font-size: 14px;
+  color: #4b0082;
+  text-decoration: none;
+}
